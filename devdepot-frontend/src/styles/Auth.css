@@ -1,19 +1,21 @@
 
 .form-background {
     width: 50vw;
-    height: 80vh;
+    height: 80%;
     background-color: #7A3B69;
     box-shadow: 1px 1px 6px black;
+    padding-right: 2vw;
 }
 .form-foreground {
     width: 50vw;
-    height: 80vh;
+    height: 80%;
     background-color: white;
     transform: translate(-1vw, -2vh);
     box-shadow: 1px 1px 10px black;
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 1vw;
 }
 .profile-border {
     width: 4vw;

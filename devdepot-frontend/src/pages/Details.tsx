@@ -9,7 +9,7 @@ import '../styles/Auth.css'
 
 export default function Details() {
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: 900}}>
             <RegisterFrame image={settings} title={'Account Details'} subtitle={"don't lie... we'll know"}>
                 <form style={{display: 'flex', flexDirection: 'column', gap: '.5vw', marginTop: '.25vw'}}>
                     <FormInput image={email} type='email' placeholder='email' ></FormInput>

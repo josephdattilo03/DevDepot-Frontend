@@ -16,7 +16,7 @@ export default function RegisterFrame({children, image, title, subtitle} : Regis
                     <div className='profile-border'>
                         <img src={image}></img>
                     </div>
-                    <p style={{marginTop: "4vh", marginBottom: 0}} className='subtitle-sm'>{title}</p>
+                    <p style={{marginTop: "4vh", marginBottom: 0, textAlign: 'center'}} className='subtitle-sm'>{title}</p>
                     <p style={{marginTop: "1vh", textAlign: 'center'}} className='body-ig'>{subtitle}</p>
                     {children}
                 </div>

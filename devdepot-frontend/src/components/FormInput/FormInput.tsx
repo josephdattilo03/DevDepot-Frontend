@@ -12,7 +12,7 @@ export default function FormInput({type, placeholder, image} : FormInputProps) {
             <img style={{position: 'absolute', marginLeft: "1vw", width: '4vw'}} src={image}></img>
             <input style={
                 {width: "35vw",
-                height: "5vw", 
+                height: "6vw", 
                 fontSize: "3vw", 
                 paddingLeft: "6vw", 
                 backgroundColor: "#7A3B6959", 
