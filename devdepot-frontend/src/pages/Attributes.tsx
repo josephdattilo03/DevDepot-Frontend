@@ -16,7 +16,7 @@ export default function Attributes() {
                 </form>
                 <div style={{marginTop: '8vw'}}>
                     <div className='btn btn-txt' style={{width: '33vw'}}>
-                        <p style={{fontSize: '1.4vw'}}>Finish Registration</p>
+                        <p style={{fontSize: '1.2vw'}}>Finish Registration</p>
                     </div>
                 </div>
             </RegisterFrame>
