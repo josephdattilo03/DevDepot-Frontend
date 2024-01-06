@@ -8,7 +8,7 @@ import lock from '../assets/lock.svg'
 
 export default function Login() {
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
             <RegisterFrame image={profileImg} title={'Login'} subtitle={"Input your account details. If you don't have an account, click register."}>
                 <form style={{ marginTop: '5vh', display: 'flex', flexDirection: 'column', gap: '3vw' }}>
                     <FormInput type='text' image={hollowProfile} placeholder='email' ></FormInput>
