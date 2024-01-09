@@ -4,7 +4,7 @@ import Home from '../pages/Home'
 import Login from '../pages/Login'
 import Details from '../pages/Details'
 import Attributes from '../pages/Attributes'
-import Dashboard from '..pages/Dashboard'
+import Dashboard from '../pages/Dashboard'
 
 
 
