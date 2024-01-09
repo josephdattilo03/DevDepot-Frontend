@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Route, Routes, BrowserRouter } from "react-router-dom"
 import Home from '../pages/Home'
 import Login from '../pages/Login'
 import Details from '../pages/Details'
 import Attributes from '../pages/Attributes'
+import RegisteringUserContext from '../contexts/RegisteringUserContext'
 
 
 
@@ -13,8 +14,10 @@ export default function Router() {
             <Routes>
                 <Route path='/' element={<Home />}></Route>
                 <Route path='/login' element={<Login/>}></Route>
-                <Route path='/signup/details' element={<Details/>}></Route>
-                <Route path='/signup/attributes' element={<Attributes/>}></Route>
+                <RegisteringUserContext>
+                    <Route path='/signup/details' element={<Details/>}></Route>
+                    <Route path='/signup/attributes' element={<Attributes/>}></Route>
+                </RegisteringUserContext>
             </Routes>
         </BrowserRouter>
     )
