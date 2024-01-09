@@ -4,6 +4,7 @@ import Home from '../pages/Home'
 import Login from '../pages/Login'
 import Details from '../pages/Details'
 import Attributes from '../pages/Attributes'
+import Dashboard from '..pages/Dashboard'
 
 
 
@@ -15,6 +16,7 @@ export default function Router() {
                 <Route path='/login' element={<Login/>}></Route>
                 <Route path='/signup/details' element={<Details/>}></Route>
                 <Route path='/signup/attributes' element={<Attributes/>}></Route>
+                <Route path='/dashboard' element={<Dashboard/>}></Route>
             </Routes>
         </BrowserRouter>
     )
